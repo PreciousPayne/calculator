@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:14px;
+    color:white;
+    height:100vh;
+}
+
+main{
+    max-width:400px;
+    padding:1rem;
+}
+
+.theme{
+    background-color: hsl(222, 26%, 31%);
+}
+
+/*theme two styles*/
+
+.themeT{
+    background-color: hsl(0, 0%, 90%);
+}
+
+.themeT h1{
+    color:hsl(198, 20%, 13%);
+}
+
+.themeT .display{
+    background-color: hsl(0, 0%, 93%);
+    color:hsl(198, 20%, 13%);
+    border:1px solid hsl(0, 0%, 93%);
+}
+
+.themeT .calculator #wrapper{
+    background-color:hsl(0, 5%, 81%);
+}
+
+.themeT .calc_btn{
+   background-color:hsl(0, 5%, 81%);
+}
+
+.themeT #circle{
+    background-color: hsl(25, 98%, 40%);
+}
+
+.themeT .toggle h3,
+.themeT  .text p{
+    color:hsl(198, 20%, 13%);
+}
+
+.themeT .blue{
+    background-color: hsl(185, 42%, 37%);
+    color:white
+}
+
+.themeT #equals{
+    background-color: hsl(25, 98%, 40%);
+    color:white;
+}
+
+/*third theme*/
+.themeTh{
+    background-color: hsl(268, 75%, 9%);
+}
+
+.themeTh h1{
+    color:hsl(52, 100%, 62%);
+}
+
+.themeTh .display{
+    background-color: hsl(268, 71%, 12%);
+    border:1px solid hsl(268, 71%, 12%);
+    color:hsl(52, 100%, 62%);
+}
+
+.themeTh .calculator #wrapper{
+    background-color:hsl(268, 71%, 12%);
+}
+
+.themeTh .calc_btn{
+   background-color:hsl(268, 71%, 12%);
+}
+
+.themeTh .toggle h3,
+.themeTh  .text p{
+    color:hsl(52, 100%, 62%)
+}
+
+.themeTh .button, .themeTh .blue,
+.themeTh #plus,
+.themeTh #minus,
+.themeTh #divide,
+.themeTh #dot,
+.themeTh #times{
+    color:hsl(52, 100%, 62%);
+    background-color: hsl(281, 89%, 26%);
+    border: 1px solid hsl(281, 89%, 26%);
+    text-align: center;
+    border-radius: .4rem;
+}
+
+.themeTh .blue{
+    color:white;
+}
+
+.themeTh #equals{
+    color:hsl(198, 20%, 13%);
+    background-color: hsl(176, 100%, 44%);
+    border: 1px solid hsl(176, 100%, 44%);
+}
+
+.themeTh #circle{
+    background-color: hsl(176, 100%, 44%);
+}
+
+/*button styles*/
+.red{
+    background-color:hsl(6, 63%, 50%);
+    border:1px solid hsl(6, 63%, 50%);
+    border-radius: .4rem;
+    color:white;
+}
+
+.blue{
+    background-color:hsl(225, 21%, 49%);
+    border:1px solid hsl(225, 21%, 49%);
+    border-radius: .4rem;
+    color:white;
+}

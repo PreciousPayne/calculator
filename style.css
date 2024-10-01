@@ -1,0 +1,123 @@
+
+.calculator{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.calculator .calc{
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.calculator .toggle{
+    display: flex;
+    align-items: center;
+}
+
+.calculator .toggle h3{
+    margin-right:1rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    font-size:.8rem;
+}
+
+.calculator .toggle .togglewrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:20%;
+    margin-bottom: 1rem;
+}
+
+.calculator .toggle .togglewrapper .text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+}
+
+.calculator .toggle .togglewrapper .text p{
+   margin-right:.5rem;
+   font-size:.8rem;
+}
+
+.calculator .toggle .togglewrapper .wrapper{
+    width:3rem;
+    background-color:  hsl(223, 31%, 20%);
+    height:1rem;
+    border-radius: .55rem;
+    position: relative;
+    cursor: pointer;
+}
+
+.calculator .toggle .togglewrapper .wrapper .circle{
+    position: absolute;
+    width:15px;
+    height:15px;
+    border-radius: 50%;
+    background-color: hsl(6, 63%, 50%);
+    left:0;
+    cursor:pointer;
+}
+
+.calculator .toggle .togglewrapper .wrapper .circle:hover{
+    opacity:0.5;
+}
+
+.calculator .display{
+    background-color:  hsl(224, 36%, 15%);
+    width:100%;
+    min-height:4rem;
+    border-radius: .4rem;
+    margin-bottom: 1rem;
+    text-align: right;
+    color:white;
+    font-size:3rem;
+    outline: none;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.calculator .calc_btn{
+    display: grid;
+    gap:.5rem;
+    grid-template-columns: repeat(4, 1fr);
+    padding:.8rem;
+    background-color: hsl(223, 31%, 20%);
+    border-radius: .4rem;
+}
+
+.calculator .btn{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.calculator .calc_btn button{
+    height:3rem;
+    font-weight:550;
+    font-size:1rem;
+    cursor: pointer;
+}
+
+.calculator .calc_btn button:hover{
+    opacity:0.5;
+}
+
+.calculator .calc_btn .reset:hover,
+.calculator .calc_btn .equals:hover{
+    opacity: 0.5;
+}
+
+.calculator .calc_btn  .reset{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.calculator .calc_btn .equals{
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
